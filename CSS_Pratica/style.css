@@ -1,0 +1,35 @@
+body{
+    background-color: #f4f4f4;
+}
+.texto{
+    font-size:20px; /* tamanho da fonte */
+    line-height: 35px; /*entre linhas*/
+    color:#dc0000; /*cor da fonte*/
+    font-style: italic; /*estilo da fonte*/
+    font-weight: bold; /*largura font*/
+    text-align: right; /*alinhamento de texto*/
+}
+.texto a{
+    color: #00dc49;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.borda{
+    width: 500px;
+    border: 1px solid #00dc49;
+    /*tamanho tipo cor*/
+    margin: 0 auto;
+    margin-top: 40px;
+    /*top left right bottom*/
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.lista{
+    list-style-position: inside;
+    /*posição do marcador inside/outside*/
+    list-style-type: square;
+    /*disc circle square decimal*/
+
+}
